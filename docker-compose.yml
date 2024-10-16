@@ -1,0 +1,25 @@
+version: "1"
+services:
+  pgsql:
+    image: postgres:14.7
+    volumes:
+      - ./db:/var/lib/postgresql/data
+    ports:
+      - 7778:5432
+    networks:
+      - dev-net
+    environment:
+      POSTGRES_USER: rayyan
+      POSTGRES_PASSWORD: rayyan
+      POSTGRES_DB: banquet-invoice-db
+  adminer:
+    image: adminer
+    restart: always
+    networks:
+      - dev-net
+    ports:
+      - 8080:8080
+
+networks:
+  dev-net:
+    driver: bridge
