@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./title-image.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="./title-image.jpg" alt="Banquet Invoice System"></a>
 </p>
 
 <h3 align="center">Banquet Invoice System</h3>
@@ -37,16 +37,12 @@ A Banquet invoice system in which admin adds, edits or deletes Meals & Manager q
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
+Make sure you have installed [NodeJs](https://nodejs.org/en/).
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running. Make sure you have installed NodeJs.
+A step by step series of examples that tell you how to get a development env running.
 
 clone the project using:
 
